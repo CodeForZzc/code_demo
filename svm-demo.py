@@ -4,7 +4,7 @@
 Author : Zzc
 Time : 2022/8/7 16:15
 File : svm-demo.py
-Description :
+Description : svm方法的Demo
 """
 from sklearn import svm
 import numpy as np

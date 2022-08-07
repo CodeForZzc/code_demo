@@ -4,7 +4,7 @@
 Author : Zzc
 Time : 2022/8/7 15:46
 File : plot.py
-Description : 用于画图文件
+Description : 用于画图
 """
 import os
 import numpy as np
