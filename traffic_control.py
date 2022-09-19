@@ -5,6 +5,7 @@ Author : Zzc
 Time : 2022/8/7 16:09
 File : traffic_control.py
 Description :
+通过tc控制网路带宽变化
 https://blog.csdn.net/xiaoyu_750516366/article/details/103041138
 https://www.runoob.com/python/att-string-format.html
 """
