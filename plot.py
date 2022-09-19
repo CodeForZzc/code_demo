@@ -22,10 +22,9 @@ y = -2 * x * x + 2 * x + 1
 plt.xlabel('x')
 plt.ylabel('f(x)')
 plt.title("")
-plt.plot(x, y)
-plt.show()
+plt.plot(x, y, label='data')
 
 plt.legend()
-plt.set(xlabel="时间", ylabel="码率/kbps", title="码率对比图")
+plt.show()
 # plt.set_xlim(0, 100)
 # plt.set_ylim(0, 5500)

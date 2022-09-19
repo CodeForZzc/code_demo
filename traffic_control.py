@@ -35,7 +35,7 @@ def load_trace(trace_file):
         cmd(r)  # 执行改变带宽的命令
         record = datetime.datetime.now()
         print(record.strftime('%H:%M:%S ') + '{:>4d}'.format(row) + ' ' + r)
-        time.sleep(0.5)  # 等待i秒时间
+        time.sleep(0.5)  # 等待0.5秒时间
     # 删除限制带宽的队列
     cmd("sudo tc qdisc del dev ens33 root")
 
